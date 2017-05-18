@@ -1,0 +1,4 @@
+#EXTM3U
+
+#EXTINF:0 tvg-id="1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Eurosport_Logo_2015.svg/1280px-Eurosport_Logo_2015.svg.png",Eurosport showcase (http)
+http://esioslive6-i.akamaihd.net/hls/live/202874/AL_P_ESP1_INTER_ENG/playlist_1000.m3u8
