@@ -18,7 +18,7 @@ from m3u_parser import LoadPlaylist, PlaylistReloader
 from xmltv_parser import LoadGuide, GuideReloader
 import re
 
-NAME = 'IPTV'
+NAME = 'FabIPTV'
 PREFIX = '/video/' + NAME.lower()
 
 ####################################################################################################
@@ -56,7 +56,7 @@ def MainMenu():
             oc.add(
                 InputDirectoryObject(
                     key = Callback(ListItems),
-                    title = unicode(L('Search')), 
+                    title = unicode(L('Search')),
                     #prompt = unicode(L('Search')),
                     thumb = R('icon-search.png')
                 )
